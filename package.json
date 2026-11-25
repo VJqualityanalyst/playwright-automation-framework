@@ -1,0 +1,26 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript framework with Page Object Model and environment config",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:staging": "cross-env TEST_ENV=staging playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Vijayender Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.7",
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.10",
+    "typescript": "^7.0.2"
+  }
+}

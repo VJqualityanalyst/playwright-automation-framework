@@ -1,0 +1,13 @@
+# Dependencies (recreated by "npm install")
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Environment files hold URLs, usernames and passwords - never commit them
+.env
+.env.*
+!.env.example
